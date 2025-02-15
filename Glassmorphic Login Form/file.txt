@@ -1,4 +1,0 @@
-📂 customer-login
-│── 📄 index.html
-│── 📄 styles.css
-│── 📄 script.js
