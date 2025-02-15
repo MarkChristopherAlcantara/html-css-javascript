@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #0a0a0a;
+}
+.header {
+    width: 100%;
+    background: rgba(10, 10, 10, 0.9);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.header .logo {
+    position: absolute;
+    left: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.header nav {
+    display: flex;
+    gap: 30px;
+}
+.header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+.header nav a:hover {
+    color: orange;
+}
+.container {
+    display: flex;
+    width: 1000px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    margin-top: 100px;
+}
+.image-section {
+    flex: 1.3;
+    background: url('https://scontent.fmnl17-6.fna.fbcdn.net/v/t39.30808-6/480030139_1295901011531311_780670406591838602_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGMdVzzA97L7AyvFqNJ3IUaMAWlR88LuwwwBaVHzwu7DI792053f1cOI-3X84PwgjkyG47zETLZ2k7n6O0zPZju&_nc_ohc=2XM736wvaLcQ7kNvgFpY0FH&_nc_oc=AdgpY-9XfOs_-R6faSmyuTWxbhkG3enaW-neuhF3FZNDtVNFKjUrw41LIsQdEIWZQrM&_nc_zt=23&_nc_ht=scontent.fmnl17-6.fna&_nc_gid=AS6ovI9ufJSLuPCcMULc9US&oh=00_AYAVZaFa0kb3WgDwuSAVn1MOZJKhU0OQeVjHW3osq0Ldtg&oe=67B6E953') no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.image-section h1 {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font-size: 2rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+.image-section span {
+    color: orange;
+    font-weight: bold;
+}
+.login-section {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 10px;
+    color: white;
+}
+.login-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+.login-section p {
+    font-size: 1rem;
+    opacity: 0.8;
+    text-align: center;
+}
+.login-section input {
+    width: 90%;
+    padding: 14px;
+    margin: 12px 0;
+    border-radius: 5px;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 1.1rem;
+}
+.login-btn {
+    width: 95%;
+    padding: 14px;
+    background: #00ff99;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.social-login {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+.social-login button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.google {
+    background: #db4437;
+    color: white;
+}
+.facebook {
+    background: #3b5998;
+    color: white;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Christopher Alcantara</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">Mark Christopher alcantara</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="image-section">
+            <h1>MARK <br><span> Christopher Alcantara</span></h1>
+        </div>
+        <div class="login-section">
+            <h2>Login</h2>
+            <p>How to get started? Lorem ipsum dolor sit amet.</p>
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button class="login-btn" onclick="login()">LOGIN NOW</button>
+            <p>Login with Others</p>
+            <div class="social-login">
+                <button class="google">Login with Google</button>
+                <button class="facebook">Login with Facebook</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function login() {
+            let username = document.getElementById('username').value;
+            let password = document.getElementById('password').value;
+            if (username === '' || password === '') {
+                alert('Please enter both username and password.');
+            } else {
+                alert('Login successful!');
+            }
+        }
+        
+    </script>
+</body>
+</html>
