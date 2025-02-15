@@ -13,6 +13,7 @@ The primary goal of this collection is to provide a variety of **stylish and fun
 
 ## Current Templates
 - **Glassmorphic Login Form**: A sleek and modern template utilizing the glassmorphism trend with a frosted-glass effect, providing a visually appealing and contemporary login experience.
+- **Login UI Design**: Another visually striking and user-friendly login form that showcases your skills in creating appealing and functional user interfaces.
 
 ## Upcoming Templates
 The collection is continuously growing, with plans to include more unique and creative login templates. Each upcoming template will explore different design trends and usability features, offering a wide range of options for developers to choose from. **Stay tuned for exciting new additions!**
